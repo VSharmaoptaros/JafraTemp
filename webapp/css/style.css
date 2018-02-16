@@ -1,1 +1,91 @@
-/* Enter your custom styles here */
+/*vikash modified  Login css here */
+
+.sapMFlexBoxAlignContentStretch {
+    -webkit-align-content: stretch;
+    align-content: stretch;
+    padding: 10px 40px 0px 40px;
+}
+
+.sapMShellGlobalOuterBackground {
+    background-color: #fff !important;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;}
+
+
+
+.sapMPage>.sapMPageHeader + section{background-color: #ececec !important;}
+
+.sapMInputBaseWidthPadding {
+    padding: 0.25rem 0;
+    margin-bottom: 22px;
+}
+
+.sapMInputBaseInner {
+    color: #000000;
+    background: #ffffff;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    font-size: 0.875rem;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: normal;
+    padding: 22px;
+    height: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px !important;
+}
+
+.heading{ font-size:24px; color:#4a4a4a; margin:0px 0px 20px 0px;}
+
+button.btn{ width:100% !important;}
+
+.sapMBtnInner
+{	
+	margin: 20px 0px !important;
+    border-radius: 12px !important;
+    text-align: center !important;
+    font-size: 18px !important;
+    color: #fff !important;
+    border: none !important;
+    background: #838383;
+    font-weight: normal !important;
+    letter-spacing: 1px !important;
+    padding: 30px 0px !important;
+	
+}
+
+.sapMBtnContent {
+    display: block;
+    overflow: visible; 
+    /* text-overflow: ellipsis; */
+    /* white-space: nowrap; */
+    vertical-align: top;
+    line-height:0px !important;
+}
+.sapMIBar.sapMHeader-CTX { background:#ececec!important; text-align:left!important; color:#4a4a4a !important; font-weight:bold; float:left;}
+.sapMShellBrandingBar { background:none!important; border:none!important; box-shadow: none !important;}
+.sapMIBar.sapMHeader-CTX { background:#ececec !important; border:none !important; box-shadow: none !important;}
+.sapMBarMiddle {text-align: left !important; padding-left: 40px !important;}
+
+html.sap-desktop .sapMShellCentralBox { box-shadow:none !important;}
+
+.sapMBarLeft, .sapMBarRight {position: absolute;height: 100%;top: -50px;}
+.sapMBarContainer {white-space: nowrap;overflow: visible;text-overflow: ellipsis;}
+.sapMBtnIcon { color:#515151 !important;}
+
+.sapMIBar-CTX .sapMBtn:hover>.sapMBtnHoverable:not(.sapMBtnActive) { border-color: transparent !important; background:transparent !important;}
+.sapMIBar-CTX.sapMHeader-CTX :not(.sapMBtnDisabled)>.sapMBtnActive { background:transparent!important;}
+.sapMBtnActive{ background:transparent !important;}
+
+button.btn1{background:none !important; text-align:left !important; margin:0px!important; padding:0px !important;}
+
+
+/*vikash modified take a tour css here */
+.sapMFlexItemAlignAuto .logo{ text-align:center !important;}
+.logo{ display:inline; text-align:center !important;}
+.logo img {max-width:324px; width:auto; height:auto;}
+
+
+

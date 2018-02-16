@@ -1,9 +1,20 @@
-<mvc:View controllerName="JafraTemp.controller.Login" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+<mvc:View xmlns:l="sap.ui.layout" controllerName="JafraTemp.controller.Login" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true" xmlns="sap.m">
 	<App>
 		<pages>
-			<Page title="{i18n>title}">
-				<content></content>
+			
+			
+
+			
+			<Page class="header_modify">
+				<content>
+					<VBox>
+				<Image src="images/logo.jpg" class="logo"></Image>
+						 <Button  text="Sign In" press="onPressClick" class="btn" enabled="true"></Button>
+		
+					</VBox>
+	
+				</content>
 			</Page>
 		</pages>
 	</App>
