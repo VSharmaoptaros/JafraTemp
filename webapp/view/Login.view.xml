@@ -6,16 +6,20 @@
 			
 
 			
-			<Page class="header_modify">
-				<content>
-					<VBox>
-				<Image src="images/logo.jpg" class="logo"></Image>
-						 <Button  text="Sign In" press="onPressClick" class="btn" enabled="true"></Button>
-		
-					</VBox>
-	
-				</content>
-			</Page>
+		<Page title="Back" class="header_modify" showNavButton="true" visible="false">
+                                                                <content>
+                                                                                <VBox>
+                                                                                                <Title text="Sign In" class="heading"></Title>
+                                                <Label text="Consultant ID" labelFor="input-a"/>
+                                                <Input id="input-a"  />
+                                                <Label text="Password " labelFor="input-b"   />
+                                                <Input id="input-b" placeholder="text for input" value=""/>
+           <Button id="idLoginBtn" text="Sign In" press="onPressClick" class="btn" enabled="false"></Button>
+                                                                                </VBox>
+                
+                                                                </content>
+</Page>
+
 		</pages>
 	</App>
 </mvc:View>
